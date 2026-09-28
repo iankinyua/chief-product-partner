@@ -1,0 +1,15 @@
+interface:
+  display_name: Product Discovery Agent
+  short_description: Guide discovery to a decision brief and evidence-linked PRD
+  default_prompt: Start product discovery on my problem. First review our prior context,
+    challenge the framing with concrete facts, and guide me through one stage at a
+    time.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
