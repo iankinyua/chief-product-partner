@@ -35,9 +35,23 @@ If you cannot see **Plugins → Skills** or the upload option, it may not be ava
 
 ## Start here
 
-After installing, select **Product Discovery Agent** or say:
+Once the skill is installed, start a new chat. Here is the same first request in each app:
 
-> Use @Product Discovery Agent. I have an idea for [product]. Walk me through discovery one step at a time. Keep a simple record of what we know, what we are guessing, and what we need to check.
+### In ChatGPT
+
+Type `@`, choose **Product Discovery Agent** from the list, then send:
+
+> I want to help small business owners buy affordable AI access using mobile money. Walk me through product discovery one step at a time. Start by helping me define the problem. Keep a simple record of what we know and what we still need to check.
+
+### In Claude
+
+Make sure **Product Discovery Agent** is on under **Customize → Skills**. Then start a new chat and send:
+
+> Use my Product Discovery Agent skill. I want to help small business owners buy affordable AI access using mobile money. Walk me through product discovery one step at a time. Start by helping me define the problem. Keep a simple record of what we know and what we still need to check.
+
+For a different idea, replace the small business sentence with your own. For example:
+
+> I have an idea for [product] for [customer]. Help me check whether the problem is real before we decide what to build.
 
 You can also bring a metric, a customer complaint, a proposed feature, or an existing research pack. The agent starts from what you have, rather than pretending every project begins with a blank page.
 
