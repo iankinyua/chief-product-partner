@@ -4,9 +4,38 @@ A practical guide for working through a product idea before committing to build 
 
 The skill is designed to take an idea from an early question to a decision. If building is justified, it can then help write a product requirements document (PRD). A good discovery may also end with a change of direction or a decision to stop.
 
+## Download the skill
+
+1. At the top of this GitHub page, click **Code → Download ZIP**.
+2. Extract the downloaded repository ZIP.
+3. Inside it, find the **`product-discovery-agent`** folder. This is the skill; the repository's `README.md` and `examples` folder are guides, not part of the upload.
+4. Compress just the **`product-discovery-agent`** folder into a new ZIP. On Windows, right-click the folder and choose **Compress to ZIP file** (or **Send to → Compressed (zipped) folder**). On Mac, right-click and choose **Compress "product-discovery-agent"**.
+5. Check that opening your new ZIP shows **`product-discovery-agent/SKILL.md`**, along with its `assets`, `references`, and other folders. If the ZIP opens with the whole repository or with `SKILL.md` at the top level, zip the skill folder again.
+
+Keep this new ZIP for the upload steps below. Downloading a GitHub ZIP does **not** install the skill in either app.
+
+## Install in Claude
+
+1. Open [Claude](https://claude.ai/) and go to **Customize → Skills**.
+2. Click **+ → Create skill → Upload a skill**.
+3. Select the ZIP you made above.
+4. When Product Discovery Agent appears in your skills list, turn it **on**.
+5. Start a new chat and try: “Use Product Discovery Agent to help me explore an idea for cheaper AI access for small business owners. Start with the problem.”
+
+If **Skills** is missing or greyed out, check whether code execution is enabled in Claude's settings. In an organization, an admin may control skill creation. See [Claude's skill instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
+
+## Install in ChatGPT
+
+1. In ChatGPT, open **Plugins → Skills** in the sidebar.
+2. Click **Create → Upload from your computer** and select the ZIP you made above.
+3. Wait for the upload scan. If ChatGPT asks you to review the skill, review it before using it.
+4. Start a new chat. Type `@` and select **Product Discovery Agent**, or ask ChatGPT to use it by name. Try the same small business idea prompt above.
+
+If you cannot see **Plugins → Skills** or the upload option, it may not be available on your account or your workspace may have disabled uploads. The GitHub link alone does not install it. See [OpenAI's ChatGPT skill instructions](https://help.openai.com/en/articles/20001066-skills-in-chatgpt). For local Codex use, see [OpenAI's skill setup guide](https://learn.chatgpt.com/docs/build-skills).
+
 ## Start here
 
-In ChatGPT, select **Product Discovery Agent** or say:
+After installing, select **Product Discovery Agent** or say:
 
 > Use @Product Discovery Agent. I have an idea for [product]. Walk me through discovery one step at a time. Keep a simple record of what we know, what we are guessing, and what we need to check.
 
