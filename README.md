@@ -20,7 +20,7 @@ Keep this new ZIP for the upload steps below. Downloading a GitHub ZIP does **no
 2. Click **+ → Create skill → Upload a skill**.
 3. Select the ZIP you made above.
 4. When Chief Product Partner appears in your skills list, turn it **on**.
-5. Start a new chat and try: “Use Chief Product Partner to help me explore an idea for cheaper AI access for small business owners. Start with the problem.”
+5. Start a new chat and try: “Use Chief Product Partner to help me explore a to-do app idea for students. Start with the problem.”
 
 If **Skills** is missing or greyed out, check whether code execution is enabled in Claude's settings. In an organization, an admin may control skill creation. See [Claude's skill instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 
@@ -29,7 +29,7 @@ If **Skills** is missing or greyed out, check whether code execution is enabled 
 1. In ChatGPT, open **Plugins → Skills** in the sidebar.
 2. Click **Create → Upload from your computer** and select the ZIP you made above.
 3. Wait for the upload scan. If ChatGPT asks you to review the skill, review it before using it.
-4. Start a new chat. Type `@` and select **Chief Product Partner**, or ask ChatGPT to use it by name. Try the same small business idea prompt above.
+4. Start a new chat. Type `@` and select **Chief Product Partner**, or ask ChatGPT to use it by name. Try the same to-do app prompt above.
 
 If you cannot see **Plugins → Skills** or the upload option, it may not be available on your account or your workspace may have disabled uploads. The GitHub link alone does not install it. See [OpenAI's ChatGPT skill instructions](https://help.openai.com/en/articles/20001066-skills-in-chatgpt). For local Codex use, see [OpenAI's skill setup guide](https://learn.chatgpt.com/docs/build-skills).
 
@@ -41,15 +41,15 @@ Once the skill is installed, start a new chat. Here is the same first request in
 
 Type `@`, choose **Chief Product Partner** from the list, then send:
 
-> I want to help small business owners buy affordable AI access using mobile money. Help me work through this idea. Start with what we know and the next useful step.
+> I want to build a to-do app for students managing assignments. Help me work through this idea. Start with what we know and the next useful step.
 
 ### In Claude
 
 Make sure **Chief Product Partner** is on under **Customize → Skills**. Then start a new chat and send:
 
-> Use my Chief Product Partner skill. I want to help small business owners buy affordable AI access using mobile money. Help me work through this idea. Start with what we know and the next useful step.
+> Use my Chief Product Partner skill. I want to build a to-do app for students managing assignments. Help me work through this idea. Start with what we know and the next useful step.
 
-For a different idea, replace the small business sentence with your own. For example:
+For a different idea, replace the student sentence with your own. For example:
 
 > I have an idea for [product] for [customer]. Help me check whether the problem is real before we decide what to build.
 
@@ -85,7 +85,7 @@ The stages are guides, not a promise that every idea reaches Step 9. New evidenc
 
 The agent can check public sources, compare options, keep the record, draft interview questions, analyze evidence you provide, and challenge the proposed solution. You bring access to real customers and internal data, make business commitments, and decide what to prioritize. The agent must never claim it interviewed a person or ran a test when it did not.
 
-A useful customer example is recent and specific: “Show me the last post you made. What did you try, where did you stop, and what did you do instead?” A statement such as “people want cheaper AI” is a starting belief. It becomes stronger only when we see who those people are and what they do.
+A useful customer example is recent and specific: “Show me the last assignment you worked on. How did you remember the deadline, when did you start, and what happened?” A statement such as “students need a to-do app” is a starting belief. It becomes stronger only when we see what they do today.
 
 For work that spans sessions, we keep two views:
 
@@ -94,7 +94,7 @@ For work that spans sessions, we keep two views:
 
 ## Worked example
 
-[AI credits through mobile money](examples/ai-credits-worked-example.md) shows one idea across all nine steps. Its customer interviews, test results, costs, and decisions are **simulated**. Public facts in that example have source links. Do not use the simulated numbers as market evidence.
+[A to-do app for students](examples/todo-app-worked-example.md) shows one idea across all nine steps. Its interviews, test results, and decisions are **simulated**. Do not use its numbers as evidence about real students.
 
 ## Repository contents
 
