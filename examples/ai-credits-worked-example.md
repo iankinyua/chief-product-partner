@@ -1,4 +1,4 @@
-# AI credits through mobile money: a sample discovery journey
+# Chief Product Partner worked example: AI credits through mobile money
 
 **Worked example, 28 September 2026.** The customer interviews, numbers, experiments, costs, and decisions below are **invented to show the process**. They are not findings about Kenyan businesses. The linked provider and payment facts are from public sources checked on this date. The live discovery of this idea was at Research when this example was written, with no customer interviews completed.
 
