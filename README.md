@@ -1,6 +1,6 @@
-# Product Discovery Agent
+# Chief Product Partner
 
-A practical guide for working through a product idea before committing to build it. The assistant works beside you as a product builder: friendly, direct, and willing to challenge a weak assumption. It keeps the evidence straight and uses plain language.
+Chief Product Partner works beside a product manager to turn an idea into a clear product decision. It starts with what you know, challenges weak assumptions, and keeps the conversation plain and useful.
 
 The skill is designed to take an idea from an early question to a decision. If building is justified, it can then help write a product requirements document (PRD). A good discovery may also end with a change of direction or a decision to stop.
 
@@ -8,9 +8,9 @@ The skill is designed to take an idea from an early question to a decision. If b
 
 1. At the top of this GitHub page, click **Code → Download ZIP**.
 2. Extract the downloaded repository ZIP.
-3. Inside it, find the **`product-discovery-agent`** folder. This is the skill; the repository's `README.md` and `examples` folder are guides, not part of the upload.
-4. Compress just the **`product-discovery-agent`** folder into a new ZIP. On Windows, right-click the folder and choose **Compress to ZIP file** (or **Send to → Compressed (zipped) folder**). On Mac, right-click and choose **Compress "product-discovery-agent"**.
-5. Check that opening your new ZIP shows **`product-discovery-agent/SKILL.md`**, along with its `assets`, `references`, and other folders. If the ZIP opens with the whole repository or with `SKILL.md` at the top level, zip the skill folder again.
+3. Inside it, find the **`chief-product-partner`** folder. This is the skill; the repository's `README.md` and `examples` folder are guides, not part of the upload.
+4. Compress just the **`chief-product-partner`** folder into a new ZIP. On Windows, right-click the folder and choose **Compress to ZIP file** (or **Send to → Compressed (zipped) folder**). On Mac, right-click and choose **Compress "chief-product-partner"**.
+5. Check that opening your new ZIP shows **`chief-product-partner/SKILL.md`**, along with its `assets`, `references`, and other folders. If the ZIP opens with the whole repository or with `SKILL.md` at the top level, zip the skill folder again.
 
 Keep this new ZIP for the upload steps below. Downloading a GitHub ZIP does **not** install the skill in either app.
 
@@ -19,8 +19,8 @@ Keep this new ZIP for the upload steps below. Downloading a GitHub ZIP does **no
 1. Open [Claude](https://claude.ai/) and go to **Customize → Skills**.
 2. Click **+ → Create skill → Upload a skill**.
 3. Select the ZIP you made above.
-4. When Product Discovery Agent appears in your skills list, turn it **on**.
-5. Start a new chat and try: “Use Product Discovery Agent to help me explore an idea for cheaper AI access for small business owners. Start with the problem.”
+4. When Chief Product Partner appears in your skills list, turn it **on**.
+5. Start a new chat and try: “Use Chief Product Partner to help me explore an idea for cheaper AI access for small business owners. Start with the problem.”
 
 If **Skills** is missing or greyed out, check whether code execution is enabled in Claude's settings. In an organization, an admin may control skill creation. See [Claude's skill instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 
@@ -29,7 +29,7 @@ If **Skills** is missing or greyed out, check whether code execution is enabled 
 1. In ChatGPT, open **Plugins → Skills** in the sidebar.
 2. Click **Create → Upload from your computer** and select the ZIP you made above.
 3. Wait for the upload scan. If ChatGPT asks you to review the skill, review it before using it.
-4. Start a new chat. Type `@` and select **Product Discovery Agent**, or ask ChatGPT to use it by name. Try the same small business idea prompt above.
+4. Start a new chat. Type `@` and select **Chief Product Partner**, or ask ChatGPT to use it by name. Try the same small business idea prompt above.
 
 If you cannot see **Plugins → Skills** or the upload option, it may not be available on your account or your workspace may have disabled uploads. The GitHub link alone does not install it. See [OpenAI's ChatGPT skill instructions](https://help.openai.com/en/articles/20001066-skills-in-chatgpt). For local Codex use, see [OpenAI's skill setup guide](https://learn.chatgpt.com/docs/build-skills).
 
@@ -39,21 +39,23 @@ Once the skill is installed, start a new chat. Here is the same first request in
 
 ### In ChatGPT
 
-Type `@`, choose **Product Discovery Agent** from the list, then send:
+Type `@`, choose **Chief Product Partner** from the list, then send:
 
-> I want to help small business owners buy affordable AI access using mobile money. Walk me through product discovery one step at a time. Start by helping me define the problem. Keep a simple record of what we know and what we still need to check.
+> I want to help small business owners buy affordable AI access using mobile money. Help me work through this idea. Start with what we know and the next useful step.
 
 ### In Claude
 
-Make sure **Product Discovery Agent** is on under **Customize → Skills**. Then start a new chat and send:
+Make sure **Chief Product Partner** is on under **Customize → Skills**. Then start a new chat and send:
 
-> Use my Product Discovery Agent skill. I want to help small business owners buy affordable AI access using mobile money. Walk me through product discovery one step at a time. Start by helping me define the problem. Keep a simple record of what we know and what we still need to check.
+> Use my Chief Product Partner skill. I want to help small business owners buy affordable AI access using mobile money. Help me work through this idea. Start with what we know and the next useful step.
 
 For a different idea, replace the small business sentence with your own. For example:
 
 > I have an idea for [product] for [customer]. Help me check whether the problem is real before we decide what to build.
 
 You can also bring a metric, a customer complaint, a proposed feature, or an existing research pack. The agent starts from what you have, rather than pretending every project begins with a blank page.
+
+If you say **“go ahead,”** the agent continues with the next useful action. It marks unknowns, makes low-risk working assumptions, and does not repeat questions you cannot yet answer. It keeps a detailed record for sustained discovery rather than creating a file after every exchange.
 
 At any time, ask:
 
@@ -85,7 +87,7 @@ The agent can check public sources, compare options, keep the record, draft inte
 
 A useful customer example is recent and specific: “Show me the last post you made. What did you try, where did you stop, and what did you do instead?” A statement such as “people want cheaper AI” is a starting belief. It becomes stronger only when we see who those people are and what they do.
 
-We keep two views of the same work:
+For work that spans sessions, we keep two views:
 
 1. **A short progress view** with the current stage, what we know, what we don't know, and the next action.
 2. **A full evidence record** with sources, dates, counts, limits, corrections, tests, and decisions. Making the progress view shorter must not erase the record.
@@ -96,14 +98,14 @@ We keep two views of the same work:
 
 ## Repository contents
 
-- [`product-discovery-agent/SKILL.md`](product-discovery-agent/SKILL.md): the agent's main instructions.
-- [`product-discovery-agent/references/`](product-discovery-agent/references/): detail for each stage and evidence handling.
-- [`product-discovery-agent/assets/`](product-discovery-agent/assets/): templates for progress, research, decisions, worked examples, and a PRD.
-- [`product-discovery-agent/evals/`](product-discovery-agent/evals/): fictional cases and a rubric for testing whether the agent behaves as intended.
-- [`product-discovery-agent/agents/openai.yaml`](product-discovery-agent/agents/openai.yaml): display metadata.
+- [`chief-product-partner/SKILL.md`](chief-product-partner/SKILL.md): the agent's main instructions.
+- [`chief-product-partner/references/`](chief-product-partner/references/): detail for each stage and evidence handling.
+- [`chief-product-partner/assets/`](chief-product-partner/assets/): templates for progress, research, decisions, worked examples, and a PRD.
+- [`chief-product-partner/evals/`](chief-product-partner/evals/): fictional cases and a rubric for testing whether the agent behaves as intended.
+- [`chief-product-partner/agents/openai.yaml`](chief-product-partner/agents/openai.yaml): display metadata.
 
 The GitHub copy is a guide and versioned source. Editing it does not automatically change an already installed personal skill; that update must also be applied and saved in the skill directory. The evaluation cases are tests of the agent, not evidence about any real product.
 
 ## Current status
 
-The skill has been checked for valid structure. The new conversation cases for the simple progress view and worked example have been written, but have not yet been run in fresh conversations. Do not mark them as passed until their actual responses are captured and scored.
+The skill has been checked for valid structure. The evaluation suite now includes cases for concise answers, user corrections, and “go ahead” continuation. These new cases have not yet been run in fresh conversations. Do not mark them as passed until their actual responses are captured and scored.

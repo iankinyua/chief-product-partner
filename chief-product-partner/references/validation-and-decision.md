@@ -1,6 +1,6 @@
 # Validate, decide, and specify
 
-Start every stage with the mandatory memory and reflection checkpoint. Record what changed and assess the gate at exit.
+Check relevant context before a consequential test or decision. Record material changes and assess whether the evidence supports the next commitment.
 
 ## 7. Validate
 

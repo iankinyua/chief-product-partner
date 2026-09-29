@@ -4,16 +4,16 @@ Updated: [date] · Current stage: FRAME · Status: active/provisional/closed
 Record location / link: [durable link if work spans sessions]
 Readable current view: [link to the three-section progress view, if shared]
 
-Keep this full record even when the user asks for a shorter document. Refresh the three-section view from this record; never replace sourced history with a summary or simulated example.
+Use this template for sustained work. Keep the full record when the user asks for a shorter view; never replace sourced history with a summary or simulated example.
 
-## Stage-entry memory and reflection
+## Continuity notes when material
 - Stage and decision:
 - Prior evidence IDs and source limits:
 - User corrections / choices and dates:
 - Contradictions and unknowns:
 - Specific prior inference or bias to challenge:
 - Action changed or confirmed by this review, and why:
-- If no prior record exists, state that here:
+- If prior state is missing, note the material gap:
 
 ## Decision and frame
 - Decision question / owner / timing / next commitment:

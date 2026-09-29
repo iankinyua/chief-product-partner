@@ -1,6 +1,6 @@
 # Hypothesise and explore
 
-Start each stage by reading the discovery record and showing the mandatory memory and reflection checkpoint. At exit update changed interpretations, gate, and next action.
+Check the relevant record when one exists. Surface only a correction that matters to the next action, and record material interpretation changes and decisions.
 
 ## 5. Hypothesise
 

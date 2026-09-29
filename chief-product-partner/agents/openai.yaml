@@ -1,0 +1,14 @@
+interface:
+  display_name: Chief Product Partner
+  short_description: A senior product partner for discovery and decisions
+  default_prompt: Use $chief-product-partner to help me work through this idea in
+    simple language, starting with what we know.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
