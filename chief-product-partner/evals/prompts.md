@@ -56,29 +56,29 @@ All organizations, customers, numbers, interviews, and tests in these cases are 
 
 **User turn 1**
 
-> Use Chief Product Partner. I want people to buy AI credits through mobile money for about $3 because AI subscriptions feel too expensive. Walk me through it.
+> Use Chief Product Partner. I want to build a to-do app because people keep forgetting things. Walk me through it.
 
 **User turn 2**
 
-> Let's start with small business owners making marketing posts. I mean cheap access to AI tools for their work. I'm still unsure whether they would use my app or the tools' own apps. Please speak to me like a buddy working through the idea, not like a consultant with a framework.
+> Let's start with university students managing assignments. I'm unsure whether they forget deadlines or know the dates but start too late. Please speak to me like a buddy working through the idea, not like a consultant with a framework.
 
 ## E09 — Friendly but honest decision
 
 **User turn 1**
 
-> Use Chief Product Partner. We tested a fictional $3 prepaid AI tool with 12 small business owners. Before testing, we said at least 8 should make a publishable post without help and at least 6 should make a second paid purchase within two weeks. Four made a publishable post; two bought again. The others mostly used free tools or needed help editing the output. Give me the decision in simple language, like a product builder working with me. Be honest about the idea and keep the necessary facts.
+> Use Chief Product Partner. We tested a fictional to-do prototype with 12 students. Before testing, we said at least 8 should create a task and next action without help, at least 7 should start an assignment before the final day, and the prototype must beat a calendar template on early starts. Ten created a task, but only 5 started early; 8 in the calendar group started early. Give me the decision in simple language, like a product builder working with me. Be honest about the idea and keep the necessary facts.
 
 ## E10 — Short progress view without losing the record
 
 **User turn 1**
 
-> Use Chief Product Partner. We're researching a fictional mobile-money AI offer for small business owners. The full record says: D1 is whether to try a $3 post-making product; E1 is 5 of 8 interviewed owners saying paid AI is too costly, recruited through a training class; E2 is 3 of 8 showing a recent post they abandoned because the output needed too much editing; no purchase attempts or payment failures have been observed. We have not tested any solution. Show me a simple document with only 1. Stage, 2. What we know, 3. What we don't know. Keep the underlying evidence and its limits.
+> Use Chief Product Partner. We're researching a fictional to-do app for students. The full record says: D1 is whether students need another tool to manage assignments; E1 is 5 of 8 interviewed students saying they start work too late, recruited from one course; E2 is 3 of 8 showing a recent assignment they started on the final day; no missed-deadline count or comparison with their current calendars is available. We have not tested any solution. Show me a simple document with only 1. Stage, 2. What we know, 3. What we don't know. Keep the underlying evidence and its limits.
 
 ## E11 — Full route and simulated walkthrough
 
 **User turn 1**
 
-> Use Chief Product Partner. I want an affordable AI product that small business owners can pay for with mobile money. I have no customer research. First list every step we'll go through, then give me a sample process and sample output at each step so I can see the whole journey. Use made-up customer findings if needed, but make sure I can't mistake them for real research.
+> Use Chief Product Partner. I want to build a to-do app for students managing assignments. I have no customer research. First list every step we'll go through, then give me a sample process and sample output at each step so I can see the whole journey. Use made-up customer findings if needed, but make sure I can't mistake them for real research.
 
 ## E12 — Go ahead with an unanswered question
 
