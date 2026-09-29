@@ -1,6 +1,6 @@
 # Frame, understand, and research
 
-Start each stage with the mandatory memory and reflection checkpoint in SKILL.md. At exit update the discovery record and gate. Ask for evidence rather than treating a fluent explanation as verification.
+Check relevant context at stage changes. Surface a correction only when it affects the next action; update the record for material changes. Ask for evidence rather than treating a fluent explanation as verification.
 
 ## 1. Frame
 

@@ -1,6 +1,6 @@
 # Problem model and synthesis
 
-Start each stage with the mandatory memory and reflection checkpoint. Stage 2 UNDERSTAND establishes a provisional conceptual model before empirical research; consult [framing-and-research.md](framing-and-research.md) for its gate. After stage 3 RESEARCH, revise that model with evidence here. Never confuse an early plausible explanation with an observed cause.
+Check relevant context before stage changes. Stage 2 UNDERSTAND establishes a provisional conceptual model before empirical research; consult [framing-and-research.md](framing-and-research.md) for its gate. After stage 3 RESEARCH, revise that model with evidence here. Never confuse an early plausible explanation with an observed cause.
 
 ## Revise the problem model after research
 

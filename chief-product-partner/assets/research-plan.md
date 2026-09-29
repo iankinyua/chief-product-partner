@@ -1,7 +1,7 @@
 # Research plan: [decision]
 
 - Decision and owner / deadline:
-- Stage-entry memory checkpoint reference:
+- Relevant prior context or correction:
 - Provisional problem interpretations to distinguish:
 - Target population, journey, sampling frame:
 - Existing evidence and quality:
